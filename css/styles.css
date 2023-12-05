@@ -3,7 +3,9 @@
     --main-color: #D8D8D8;
     --add-color: #959595;
     --add-white: #8D8D8D;
-    --main-bg-color: #012D63;
+    --main-bg-color: #C7C7C7;
+
+    ;
   }
 h1,
 h2,
@@ -49,7 +51,7 @@ img {
 }
   .hero {
     display: flex;
-    background-color: var(--main-bg-color);
+    background-color: #012D63;
   }
   .hero-list {
     display: flex;
@@ -60,3 +62,17 @@ img {
     font-family: Roboto;
     font-size: 24px;
    }
+.hero-list-title {
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-size: 24px;
+ }
+ .hero-language-list {
+    display: flex;
+    gap: 20px;
+ }
+ .hero-language-list-title {
+    color: #DCDCDC;
+font-family: Roboto;
+font-size: 24px;
+}
