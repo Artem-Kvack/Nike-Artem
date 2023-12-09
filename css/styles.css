@@ -1,5 +1,5 @@
 :root {
-    --accent-color: #FFF;
+    --accent-color: #8e32c6;;
     --main-color: #D8D8D8;
     --add-color: #959595;
     --add-white: #8D8D8D;
@@ -49,30 +49,74 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-  .hero {
-    display: flex;
+  .header {
+   
     background-color: #012D63;
   }
-  .hero-list {
+  .header-hero-list {
     display: flex;
     gap: 29px;
   }
-  .hero-list-title1 {
+  .hero-list-title {
     color: #FFF;
     font-family: Roboto;
     font-size: 24px;
    }
-.hero-list-title {
+.hero-title {
     color: #C7C7C7;
     font-family: Roboto;
     font-size: 24px;
  }
  .hero-language-list {
+     background-color: #012D63;
+  
     display: flex;
     gap: 20px;
+    justify-content: right;
+    margin-bottom: 33px;
  }
  .hero-language-list-title {
+  background-color: #012D63;
     color: #DCDCDC;
 font-family: Roboto;
 font-size: 24px;
+
+}
+.main-section {
+  width: 1440px;
+  height: 858px;
+  background-image: url(../img/Fon1.jpg) ;
+}
+.main-logo {
+  color: #FFF;
+  font-size: 48px;
+  }
+.main-title {
+  color: #FFF;
+  font-family: Playfair Display;
+    font-size: 144px;
+   font-weight: 400;
+}
+.main-subtitle {
+  color: #FFF;
+font-family: Playfair Display;
+    font-size: 72px;
+   font-weight: 400;
+}
+.main-text {
+  color: #FFF;
+   width: 508px;
+   height: 84px;
+    font-family: Roboto;
+    font-size: 18px;
+   
+}
+.main-btn {
+  width: 254px ;
+  height: 57px ;
+  background-color: #8e32c6;
+  color: #FFF;
+  font-family: Roboto;
+    font-size: 24px;
+    margin-top: 41px;
 }
