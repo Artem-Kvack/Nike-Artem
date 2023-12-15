@@ -82,8 +82,11 @@ font-family: Roboto;
 font-size: 24px;
 
 }
+.main {
+  margin-top: 0px;
+}
 .main-section {
-  width: 1440px;
+   
   height: 858px;
   background-image: url(../img/Fon1.jpg) ;
 }
@@ -119,4 +122,110 @@ font-family: Playfair Display;
   font-family: Roboto;
     font-size: 24px;
     margin-top: 41px;
+}
+.main-icon-section {
+  background-image: url(../img/fon2.png);
+}
+.main-icon-title {
+  color: #FFF;
+  
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reviews-section {
+  background-image: url(../img/fon3.png);
+}
+.reviews-title {
+  color: #FFF;
+  
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reviews-list-text {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reviews-list-numbers {
+color: #D8D8D8;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.reviews-list-name {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.reviews-list-title {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-section {
+  background-image: url(../img/fon4.png);
+}
+.mailto-list-title {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mailto-list-mail {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.mailto-section {
+  background: #021635;
+ 
+}
+.mailto-section-text {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mailto-section-country {
+  color: #FFF;
+  
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
