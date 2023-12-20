@@ -11,16 +11,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <header class="header">
-        <div>
+    <div class="container">
         <img src="./img/logo.png" alt="Logo" class="header-hero-logo">
         <ul class="header-hero-list list">
-            <li class="hero-list-item"><a href="" class="hero-list-title">Main page</a></li>
-            <li class="hero-list-item"><a href="" class="hero-title">Benefits</a></li>
-            <li class="hero-list-item"><a href="" class="hero-title">Advantages</a></li>
-            <li class="hero-list-item"><a href="" class="hero-title">Reviews</a></li>
-            <li class="hero-list-item"><a href="" class="hero-title">Contacts</a></li>
-            <li class="hero-list-item"><a href="" class="hero-title">Order</a></li>
+            <li class="hero-list-item"><a href="" class="hero-list-link link">Main page</a></li>
+            <li class="hero-list-item"><a href="" class="hero-link link">Benefits</a></li>
+            <li class="hero-list-item"><a href="" class="hero-link link">Advantages</a></li>
+            <li class="hero-list-item"><a href="" class="hero-link link">Reviews</a></li>
+            <li class="hero-list-item"><a href="" class="hero-link link">Contacts</a></li>
+            <li class="hero-list-item"><a href="" class="hero-link link">Order</a></li>
         </ul>
         <ul class="hero-language-list list">
             <li class="hero-language-list-item"><button type="button" class="hero-language-list-title">Ua</button></li>
@@ -43,9 +44,10 @@
             <h2 class="hidden "></h2>
                 <ul class="main-icon-list list">
                     <li class="main-icon-item">
+                        <h3 class="main-icon-title"> Premium
+                            Quality</h3>
                         <img src="./img/stars.svg" alt="Stars" class="main-icon-img">
-                        <h3 class="main-icon-title" > Premium 
-                        Quality</h3>
+                       
                     </li>
                     <li class="main-icon-item">
                         <img src="./img/paints.svg" alt="Paint" class="main-icon-img">
@@ -53,14 +55,16 @@
                     paint</h3>
                 </li>
                     <li class="main-icon-item">
+                            <h3 class="main-icon-title">Fast
+                                shipping</h3>
                         <img src="./img/truck.png" alt="car" class="main-icon-img">
-                        <h3 class="main-icon-title">Fast
-                    shipping</h3>
+                    
                 </li>
 
                 </ul>
         </section>
         <section class="reviews-section">
+            <div class="reviews-container">
             <h2 class="reviews-title ">Reviews</h2>
             <ul class="reviews-list list">
                 <li class="reviews-list-item">
@@ -69,48 +73,69 @@
                     painted, nothing has
                     worn off in a year.</p>
                     <p class="reviews-list-numbers">25.11</p>
+                    <div class="reviews-list-container-foto">
                     <img src="./img/people1.png" alt="John Teylor">
+                    </div>
+                    <div class="reviews-list-container-text">
                     <h3 class="reviews-list-name">John Teylor</h3>
                     <p class="reviews-list-title">With us from 2018</p>
+                    </div>
                 </li>
                 <li class="reviews-list-item">
                     <p class="reviews-list-text">I'm very happy with this color scheme.
                     They match all my clothes.</p>
                     <p class="reviews-list-numbers">5.01</p>
+                    <div class="reviews-list-container-foto">
                     <img src="./img/people2.png" alt="Elizabeth Garsia">
+                    </div>
+                    <div class="reviews-list-container-text">
                     <h3 class="reviews-list-name">Elizabeth Garsia</h3>
                     <p class="reviews-list-title">With us from 2020</p>
+                    </div>
                 </li>
                 <li class="reviews-list-item">
                     <p class="reviews-list-text">Just right if you need to go to a party.
                     I use them actively, the paint is super.
                       </p>
                     <p class="reviews-list-numbers">18.06</p>
+                    <div class="reviews-list-container-foto">
                     <img src="./img/people3.png" alt="Tom Maquare">
+                    </div>
+                    <div class="reviews-list-container-text">
                     <h3 class="reviews-list-name">Tom Maquare</h3>
                     <p class="reviews-list-title">With us from 2019</p>
+                    </div>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <section class="footer-section">
-            
-            <label for="email" class="section-email-label"> </label>
-            <label for="country" class="section-country-label"></label>
-            <label for="city" class="section-city-label"></label>
-            <label for="address" class="section-address-label"></label>
-            <form class="footer-input-form">
-               <input type="email" id="email" autofocus placeholder="Write your email" class="section-input-email"/>
-                <button type="button" class="section-input-btn">Confirm</button>
-                <input type="text" id="country" placeholder="Your country" class="section-input-country" />
-               <input type="text" id="city" placeholder="Your City" class="section-input-city" />
-              <input type="text" id="address" placeholder="Your Address" class="section-input-address"/>
-            </form>
-            <button type="button" class="section-input-order">Order my Nike</button>
+            <div class="container">
+            <ul class="footer-section-list list">
+                <li class="footer-list-item">
+            <input type="email" id="email" autofocus placeholder="Write your email" class="order-input" />
+            <button type="button" class="order-btn">Confirm</button>
+            </li>
+            <li class="footer-list-item">
+            <input type="text" id="country" placeholder="Your country" class="order-input" />
+            </li>
+            <li class="footer-list-item">
+            <input type="text" id="city" placeholder="Your City" class="order-input" />
+            </li>
+            <li class="footer-list-item">
+             <input type="text" id="address" placeholder="Your Address" class="order-input" />
+            </li>
+            <li class="footer-list-item">
+                <button type="button" class="section-input-order">Order my Nike</button>
+            </li>
+           </ul>
+        </div>
         </section>
         <section class="mailto-section">
-            <ul class="mailto-list">
+            <div class="container">
+            <ul class="mailto-list list">
                 <li class="mailto-list-item">
                     <p class="mailto-list-title">Have a question?</p>
                     <a href="mailto:ColoRawe_support@gmail.com" class="mailto-list-mail">ColoRawe_support@gmail.com</a>
@@ -127,9 +152,10 @@
             <p class="mailto-section-text">2022 ColoRawe @All rights reserved</p>
             <p class="mailto-section-country">United States</p>
             <img src="./img/logo.png" alt="Logo" class="mailto-section-img">
+            </div>
         </section>
-    </div>
+</div>
     </footer>
-    
+
 </body>
 </html>
