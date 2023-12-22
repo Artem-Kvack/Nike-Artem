@@ -14,7 +14,7 @@
     
     <header class="header">
     <div class="container">
-        <div class="container">
+        <div class="container-header">
         <img src="./img/logo.png" alt="Logo" class="header-hero-logo">
         <ul class="header-hero-list list">
             <li class="hero-list-item"><a href="" class="hero-list-link link">Main page</a></li>
@@ -45,6 +45,7 @@
             </div>
         </section>
         <section class="main-icon-section">
+            <div class="container">
             <h2 class="hidden "></h2>
                 <ul class="main-icon-list list">
                     <li class="main-icon-item">
@@ -66,60 +67,51 @@
                 </li>
 
                 </ul>
+                </div>
         </section>
         <section class="reviews-section">
             <div class="container">
             <h2 class="reviews-title ">Reviews</h2>
             <ul class="reviews-list list">
                 <li class="reviews-list-item">
-                  
-                    <div class="reviews-list-container-foto">
-                       
-                    <img src="./img/people1.png" alt="John Teylor" class="reviews-container-foto">
-                    <p class="reviews-list-numbers">25.11</p>
                     <p class="reviews-list-text">Sneakers are very
                         comfortable and well
                         painted, nothing has
                         worn off in a year.</p>
-                    
-                    </div>
-                    <div class="reviews-list-container-text">
-                    <h3 class="reviews-list-name">John Teylor</h3>
-                    <p class="reviews-list-title">With us from 2018</p>
+                    <p class="reviews-list-numbers">25.11</p>
+                    <div class="reviews-list-container-foto">
+                        <img src="./img/people1.png" alt="John Teylor" class="reviews-container-foto">
+                        <div class="reviews-list-container-text">
+                            <h3 class="reviews-list-name">John Teylor</h3>
+                            <p class="reviews-list-title">With us from 2018</p>
+                        </div>
                     </div>
                 </li>
                 <li class="reviews-list-item">
-                   
-                    <div class="reviews-list-container-foto">
-                        
-                    <img src="./img/people2.png" alt="Elizabeth Garsia" class="reviews-container-foto">
-                    <p class="reviews-list-numbers">05.01</p>
-                   <p class="reviews-list-text"> I'm very happy with this color scheme.
+                    <p class="reviews-list-text">I'm very happy with this color scheme.
                     They match all my clothes.</p>
-                   
-                    </div>
-                    <div class="reviews-list-container-text">
-                    <h3 class="reviews-list-name">Elizabeth Garsia</h3>
-                    <p class="reviews-list-title">With us from 2020</p>
+                    <p class="reviews-list-numbers">05.01</p>
+                    <div class="reviews-list-container-foto">
+                        <img src="./img/people2.png" alt="Elizabeth Garsia" class="reviews-container-foto">
+                        <div class="reviews-list-container-text">
+                            <h3 class="reviews-list-name">Elizabeth Garsia</h3>
+                            <p class="reviews-list-title">With us from 2020</p>
+                        </div>
                     </div>
                 </li>
                 <li class="reviews-list-item">
-                 
-                    <div class="reviews-list-container-foto">
-                       
-                       
-                    <img src="./img/people3.png" alt="Tom Maquare" class="reviews-container-foto">
-                    <p class="reviews-list-numbers">18.06</p>
                     <p class="reviews-list-text">Just right if you need to go to a party.
-                        I use them actively, the paint is super.
-                    </p>
-                    
-                    </div>
-                    <div class="reviews-list-container-text">
-                    <h3 class="reviews-list-name">Tom Maquare</h3>
-                    <p class="reviews-list-title">With us from 2019</p>
+                    I use them actively, the paint is super.</p>
+                    <p class="reviews-list-numbers">18.06</p>
+                    <div class="reviews-list-container-foto">
+                        <img src="./img/people3.png" alt="Tom Maquare" class="reviews-container-foto">
+                        <div class="reviews-list-container-text">
+                            <h3 class="reviews-list-name">Tom Maquare</h3>
+                            <p class="reviews-list-title">With us from 2019</p>
+                        </div>
                     </div>
                 </li>
+                
             </ul>
             </div>
         </section>
@@ -127,7 +119,7 @@
     <footer class="footer">
         <section class="footer-section">
             <div class="container">
-          <form action="">
+          <form action="" class="footer-input-form">
             <div class="email-wrapper">
             <input type="email" id="email" autofocus placeholder="Write your email" class="order-input" />
             <button type="button" class="order-btn">Confirm</button>

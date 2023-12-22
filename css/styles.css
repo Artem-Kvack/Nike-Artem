@@ -54,8 +54,14 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
   .header {
-   
+     padding-top: 30px;
+     padding-bottom: 17px;
     background-color: #012D63;
   }
   .header-hero-logo {
@@ -96,9 +102,8 @@ font-size: 24px;
 
 
 .main-section {
-  stroke-width: 5px;
-    stroke: #8E32C6;
-  height: 858px;
+padding-top: 94px;
+   padding-bottom: 183px;
   background-image: url(../img/Fon1.jpg) ;
   background-repeat: no-repeat;
   background-size: cover;
@@ -155,7 +160,10 @@ font-family: Playfair Display;
   display: flex;
   gap: 145px;
   justify-content: center;
-  border: #8E32C6;
+  border-style: solid;
+  color: #8E32C6;
+border-width: 1px;
+
 }
 .main-icon-item {
   padding: 25px 50px
@@ -191,23 +199,24 @@ justify-content: center;
 .reviews-list-item {
 flex-basis: 255px;
   padding: 49px 14px 29px 13px;
+  
 }
 .reviews-list-item:nth-child(1) {
   border-radius: 15px;
     background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-  
+  height: 292px;
     box-shadow: 0px 30px 0px -13px #533978, 0px 14px 0px -5px #7B54B2;
 }
 .reviews-list-item:nth-child(2) {
     border-radius: 15px;
       background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-    
+    height: 292px;
       box-shadow: 0px 30px 0px -13px #61337C, 0px 14px 0px -5px #9159B1;
 }
 .reviews-list-item:nth-child(3) {
     border-radius: 15px;
       background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-    
+    height: 292px;
       box-shadow: 0px 30px 0px -13px #732F26, 0px 14px 0px -5px #B95A4C;
 }
 .reviews-title {
@@ -235,14 +244,13 @@ flex-basis: 255px;
 }
 .reviews-list-numbers {
 color: #D8D8D8;
-margin-bottom: 47px;
+
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-top: 240px;
-  margin-bottom: 5px;
+
   
 }
 .reviews-list-container-foto {
@@ -253,7 +261,7 @@ margin-top: 240px;
 .reviews-container-foto {
   width: 31px;
     height: 31px;
-    margin-top: 232px;
+   
 }
 
 .reviews-list-container-text {
@@ -279,13 +287,17 @@ margin-top: 240px;
     line-height: normal;
 }
 .footer-section {
-  display: flex;
- height: 509px;
+
   background-image: url(../img/fon4.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 37px;
 }
-
+.footer-input-form {
+  width: 580px;
+    margin: 0 auto;
+}
 .footer-section-list {
   display: flex;
   flex-direction: column;
@@ -324,22 +336,30 @@ margin-top: 240px;
     flex-shrink: 0;
     background-color: #8E32C6;
     color: #FFF;
-    margin-left: 100px;
+   
       font-family: Roboto;
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
+      margin: 0 auto;
       margin-top: 19px;
     
       
 }
+
 .mailto-list {
   gap: 10px;
+ 
+}
+.mailto-list-item {
+  display: flex;
+    justify-content: space-between;
 }
 .mailto-list-title {
   color: #FFF;
-  
+  margin-bottom: 10px;
+    
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -348,14 +368,14 @@ margin-top: 240px;
 }
 .mailto-list-mail {
   color: #FFF;
-  margin-left: 591px;
+
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-    margin-bottom: 143px;
+   
 }
 .mailto-section {
   background: #021635;
